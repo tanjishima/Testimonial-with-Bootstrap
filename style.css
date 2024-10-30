@@ -1,0 +1,35 @@
+.carousel-indicators{
+    position: relative;
+}
+.items img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.stars i{
+    color: red;
+    font-size: 1.5rem;
+    padding: 0 .5rem;
+}
+.items q{
+    font-size:1.2rem ;
+}
+.stars{
+    margin-bottom: 1.5rem;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #d32020;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-top: 1rem;
+}
+i.bi.bi-arrow-left-circle-fill {
+    color: black;
+    font-size: 30px;
+}
+i.bi.bi-arrow-right-circle-fill {
+    color: black;
+    font-size: 30px;
+}
